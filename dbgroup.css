@@ -39,6 +39,14 @@ img.grouplogo {
     padding: 10px;
 }
 
+#bio p {
+  margin-top: 0pt;
+}
+
+#bio p:last-child {
+  margin-bottom: 0pt;
+}
+
 #logobox {
     display: block;
     margin-top: 1em !important;
