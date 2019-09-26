@@ -10,6 +10,11 @@
   <link href='https://fonts.googleapis.com/css?family=Raleway:800,600,700,500' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="canonical" href="http://db.cs.berkeley.edu/">
+  <!-- This CSS is needed for glidejs, the library we use for carousels. -->
+	<link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/css/glide.core.min.css"
+        integrity="sha256-Ev8y2mML/gGa4LFVZgNpMTjKwj34q4pC4DcseWeRb9w="
+		    crossorigin="anonymous">
 </head>
 
 <body>
@@ -150,26 +155,156 @@
 
     <h2>ACTIVITY BEYOND BERKELEY</h2>
     <h3>Alumni have taken faculty positions at:</h3>
-    <ul class="triplelist">
-      <li>Cal State Stanislaus</li>
-      <li>Cornell</li>
-      <li>Harvard</li>
-      <li>Harvey Mudd</li>
-      <li>IIT Bombay</li>
-      <li>MIT</li>
-      <li>Maryland</li>
-      <li>Stanford</li>
-      <li>U Chicago</li>
-      <li>U Florida</li>
-      <li>UBC</li>
-      <li>UC Berkeley</li>
-      <li>UC Irvine</li>
-      <li>UC Santa Cruz</li>
-      <li>UCLA</li>
-      <li>UMass (Amherst)</li>
-      <li>UPenn</li>
-      <li>Wisconsin</li>
-    </ul>
+		<div id="university-logos" class="glide">
+			<div class="glide__track" data-glide-el="track">
+				<ul class="glide__slides">
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/cal_state_stanislaus.svg"
+                   alt="Cal State Stanislaus">
+            </div>
+            Cal State Stanislaus
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/cornell.svg"
+                   alt="Cornell">
+            </div>
+            Cornell
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/harvard.svg"
+                   alt="Harvard">
+            </div>
+            Harvard
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/harvey_mudd.svg"
+                   alt="Harvey Mudd">
+            </div>
+            Harvey Mudd
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/iit_bombay.png"
+                   alt="IIT Bombay">
+            </div>
+            IIT Bombay
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/mit.svg"
+                   alt="MIT">
+            </div>
+            MIT
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/maryland.svg"
+                   alt="Maryland">
+            </div>
+            Maryland
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/stanford.svg"
+                   alt="Stanford">
+            </div>
+            Stanford
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/u_chicago.svg"
+                   alt="U Chicago">
+            </div>
+            U Chicago
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/u_florida.svg"
+                   alt="U Florida">
+            </div>
+            U Florida
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/ubc.svg"
+                   alt="UBC">
+            </div>
+            UBC
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/berkeley.svg"
+                   alt="UC Berkeley">
+            </div>
+            UC Berkeley
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/uc_irvine.svg"
+                   alt="UC Irvine">
+            </div>
+            UV Irvine
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/uc_santa_cruz.svg"
+                   alt="UC Santa Cruz">
+            </div>
+            UC Santa Cruz
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/ucla.svg"
+                   alt="UCLA">
+            </div>
+            UCLA
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/umass_amherst.svg"
+                   alt="UMass Amherst">
+            </div>
+            UMass Amherst
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/upenn.svg"
+                   alt="UPenn">
+            </div>
+            UPenn
+          </li>
+					<li class="glide__slide university-logo-slide">
+            <div class="university-logo-box">
+              <img class="university-logo"
+                   src="assets/universities/wisconsin.svg"
+                   alt="Wisconsin">
+            </div>
+            Wisconsin
+          </li>
+				</ul>
+			</div>
+		</div>
 
     <h3>Alumni have taken research and leadership positions at:</h3>
     <ul class="triplelist">
@@ -209,5 +344,11 @@
       <li>WireWheel</li>
     </ul>
   </div>
+
+  <!-- This javascript is needed for glidejs, the library we use for carousels. -->
+	<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.min.js"
+          integrity="sha256-CnNQJd80jPuIDyeQRRq7+Wgt+++Kl0dZLt4ETNmxMIw="
+          crossorigin="anonymous"></script>
+	<script src="dbgroup.js"></script>
 </body>
 </html>

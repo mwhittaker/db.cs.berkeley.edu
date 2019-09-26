@@ -126,16 +126,30 @@ img#berkeleylogo {
 .faculty-headshot-box {
   height: 200px;
   width: 175px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .faculty-headshot {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 a:link, a:visited {color: #222; text-decoration: none; }
 a:active, a:hover {color: #444; text-decoration: none; }
+
+.university-logo-slide {
+  text-align: center;
+}
+
+.university-logo-box {
+  height: 75px;
+  width: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.university-logo {
+  max-height: 100%;
+  max-width: 100%;
+}
