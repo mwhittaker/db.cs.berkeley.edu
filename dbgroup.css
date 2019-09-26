@@ -153,3 +153,18 @@ a:active, a:hover {color: #444; text-decoration: none; }
   max-height: 100%;
   max-width: 100%;
 }
+
+.company-logo-box {
+  height: 75px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.company-logo {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+}
