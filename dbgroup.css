@@ -129,8 +129,9 @@ img#berkeleylogo {
 }
 
 .faculty-headshot {
-  max-height: 100%;
-  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 a:link, a:visited {color: #222; text-decoration: none; }
@@ -150,8 +151,9 @@ a:active, a:hover {color: #444; text-decoration: none; }
 }
 
 .university-logo {
-  max-height: 100%;
-  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .company-logo-box {
@@ -164,7 +166,22 @@ a:active, a:hover {color: #444; text-decoration: none; }
 }
 
 .company-logo {
-  display: block;
-  max-height: 100%;
-  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.startup-logo-box {
+  height: 75px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.startup-logo {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
