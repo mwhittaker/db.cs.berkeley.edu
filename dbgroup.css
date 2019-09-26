@@ -69,7 +69,7 @@ ul {
 .triplelist {
   margin-left: -19px;
   list-style-position: inside;
-  align:left;
+  align: left;
 }
 
 @media screen and (min-width: 400px) {
