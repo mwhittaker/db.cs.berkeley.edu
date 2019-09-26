@@ -1,43 +1,43 @@
 html {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    margin-bottom: .5em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin-bottom: .5em;
 }
 
 #headerbox {
-    display: block;
-    overflow: auto;
-    margin-bottom: 5px;
+  display: block;
+  overflow: auto;
+  margin-bottom: 5px;
 }
 
 #head {
-    margin-top: 6px;
-    margin-bottom: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 24pt;
-    float: left;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 24pt;
+  float: left;
 }
 
 .boldtext {
-    font-weight: 500 !important;
+  font-weight: 500 !important;
 }
 
 img.grouplogo {
-    width: 200px;
-    padding-right: 15px;
-    padding-left: 15px;
+  width: 200px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 #bio {
-    background: #EEE;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+  background: #EEE;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
 #bio p {
@@ -49,25 +49,25 @@ img.grouplogo {
 }
 
 #logobox {
-    display: block;
-    margin-top: 1em !important;
-    margin-bottom: 1em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    width: 500px;
+  display: block;
+  margin-top: 1em !important;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 500px;
 }
 
 #logobox a {
-    float: left;
+  float: left;
 }
 
 #copyright {
-    clear: both;
-    text-align: center;
-    color: #808080;
-    padding-top: 10px;
-    font-size: 10pt;
+  clear: both;
+  text-align: center;
+  color: #808080;
+  padding-top: 10px;
+  font-size: 10pt;
 }
 
 .center {
@@ -80,14 +80,14 @@ img.grouplogo {
 }
 
 ul {
-    margin-top: 0px;
-    margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .triplelist {
-    margin-left: -19px;
-    list-style-position: inside;
-    align:left;
+  margin-left: -19px;
+  list-style-position: inside;
+  align:left;
 }
 
 @media screen and (min-width: 400px) {
@@ -107,9 +107,9 @@ ul {
 }
 
 img#berkeleylogo {
-    float: right;
-    height: 48px;
-    margin-right: 5px;
+  float: right;
+  height: 48px;
+  margin-right: 5px;
 }
 
 #faculty-container {
