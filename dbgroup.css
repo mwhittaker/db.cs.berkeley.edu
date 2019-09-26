@@ -35,7 +35,8 @@ img.grouplogo {
 
 #bio {
     background: #EEE;
-    margin-left: -10px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
 }
 
@@ -71,9 +72,10 @@ img.grouplogo {
 
 .center {
   margin-top: 1em;
-  margin-left:auto;
-  margin-right:auto;
-  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 6pt;
+  padding-right: 6pt;
   max-width: 700px;
 }
 
@@ -84,11 +86,24 @@ ul {
 
 .triplelist {
     margin-left: -19px;
+    list-style-position: inside;
+    align:left;
+}
+
+@media screen and (min-width: 400px) {
+  .triplelist {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .triplelist {
     columns: 3;
     -webkit-columns: 3;
     -moz-columns: 3;
-    list-style-position: inside;
-    align:left;
+  }
 }
 
 img#berkeleylogo {
