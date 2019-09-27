@@ -110,6 +110,12 @@ img#berkeleylogo {
   width: 175px;
 }
 
+.covered-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .contained-image {
   height: 100%;
   width: 100%;
